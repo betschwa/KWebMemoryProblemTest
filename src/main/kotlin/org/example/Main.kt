@@ -1,4 +1,4 @@
-package org.example.org.example
+package org.example
 
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.runBlocking
