@@ -1,4 +1,4 @@
-package org.example
+package org.example.org.example
 
 private const val FORMAT = "%,10d"
 private const val MEGA = 1024 * 1024
