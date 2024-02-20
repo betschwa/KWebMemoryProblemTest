@@ -135,6 +135,7 @@ class MemoryTestSever(private val port: Int = 8080) : AutoCloseable {
 
     override fun close() {
         webServerMemoryLoadJob.cancel()
+        randomDataJob.cancel()
         scope.cancel()
         server.close()
     }
